@@ -1,21 +1,32 @@
 body {
     height: 100%;
-    width: 80% !important; /* Ieteicamais lapas platums */
-    width: 200px; /* Mazākais iespējamais lapas platums */
-    max-width: 900px; /* Maksimālais lapas platums //700-900px */
-    margin: auto; /* Atkāpes ārpus body elementa */
-    background-color: #a3a3a3;
+    width: 80% !important; 
+    width: 200px; 
+    max-width: 900px; 
+    margin: auto;
+    background-color: #ffffff;
 
 }
 
+hr {
+    border: 10px, #daffac;
+    border-radius: 2px;
+}
+
+.lapasSaturs{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 p {
-	background-color: rgb(211, 189, 131);
+	background-color: rgb(255, 250, 238);
 	color: #052e00;
 	border: 0.4px solid rgb(255, 175, 175);
 }	
 
 table {
-    background-color: rgba(255, 255, 255, );
+    background-color: #f0f0f0;
+    margin-left: auto;
+    margin-right: auto;
 }
 .des1 {
     text-align: center;
