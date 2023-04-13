@@ -7,6 +7,21 @@ body {
     background-color: #ffffff;
 
 }
+a{
+    color: rgb(0,0,0);
+}
+a:link{
+    color: rgb(0,0,0);
+}
+a:visited{
+    color:#bbb;
+}
+a:hover{
+    color:#366100
+}
+a:active{
+    font-style: italic;
+}
 
 hr {
     border: 10px, #daffac;
@@ -24,7 +39,7 @@ p {
 }	
 
 table {
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
 }
@@ -35,4 +50,29 @@ table {
 }
 .text {
     color: #777777
+}
+.helloButton{
+    color: #b3b3b3c5
+}
+.vel{
+    margin: auto;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.vel:hover{
+    margin: auto;
+    background-color: #1f5f21; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
