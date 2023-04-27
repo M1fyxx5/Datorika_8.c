@@ -5,7 +5,10 @@ body {
     max-width: 900px; 
     margin: auto;
     background-color: #ffffff;
-
+    background-image: linear-gradient(to right, #0066ff, rgb(0, 22, 218), rgb(153, 0, 255), rgb(234, 0, 255));
+}
+.krasasIedal{
+    color:rgb(234, 0, 255)
 }
 a{
     color: rgb(0,0,0);
