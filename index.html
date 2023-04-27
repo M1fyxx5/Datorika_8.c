@@ -3,10 +3,11 @@
 	<head>
 		<title>My Page</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="index.js"></script>
 	</head>
 	<body>
 		<header>
-			<h1>Image/logo</h1>
+			<div class="navbar"></div>
 		</header>
 		
 
@@ -23,7 +24,7 @@
 					<br>
 					<img width="500" height="380" align="center" alt="Mežs" src="images/mezs.jpeg">
 				</p>
-				<p><h4>Pastāv dažādi krāsu iedalījumi:</h4></p>
+				<h4 class="krasasIedal">Pastāv dažādi krāsu iedalījumi:</h4>
 	<table>
 	<thead>
 	<tr> 
@@ -35,21 +36,27 @@
 	<tbody>
 	<tr> 
 	<td class="des1" width="20">1</td>
-	<td class="des1" width="140">vieglajās</td>
+	<td class="des1" width="140"><a href="https://tezaurs.lv/viegls:1">vieglajās</a></td>
 	<td class="des1">aukstas, gaišas un nepiesātinātas krāsas</td>
 	</tr>
 	<tr>
 	<td class="des1" width="20">2</td>
-	<td class="des1" width="140">vidējās</td>
+	<td class="des1" width="140"><a href="https://tezaurs.lv/vid%C4%93js:1">videjāis</a></td>
 	<td class="des1">piemēram, dzeltens, zils, zaļš, oranžs utt.</td>
 	</tr>
 	<tr>
 	<td class="des1" width="20">3</td>
-	<td class="des1" width="140">smagajās</td>
+	<td class="des1" width="140"><a href="https://tezaurs.lv/smags:1">smagajās</a></td>
 	<td class="des1">siltas, piesātinātas krāsas - bordo, brūns, olīvzaļš utt.</td>
 	</tr>
 	</tbody>
 	</table>
+	<br>
+	<br>
+	<button class="vel" onclick="helloWorld()">Hello</button>
+	<form action="Calculator/calculator.html">
+		<button class="vel">Calculator</button>
+	</form>
 	<br>
 
 
